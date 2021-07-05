@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>Home - Natura API</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li>
+            <a class="menu__item" href="home.html"><img class="menu-icons" src="/assets/images/icons/home_black_24dp.svg" alt="home" /> Home</a>
+          </li>
+          <li>
+            <a class="menu__item" href="doc.html" target="_blank"><img class="menu-icons" src="/assets/images/icons/assignment_black_24dp.svg" alt="doc-api" /> Doc API</a>
+          </li>
+          <li>
+            <a class="menu__item" href="faq.html" target="_blank"><img class="menu-icons" src="/assets/images/icons/support_agent_black_24dp.svg" alt="home" /> FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+      <span class="title-api-pages">Home Natura API </span>
+
+      <div class="logo">
+        <img src="/assets/images/logo/natura-logo.png" alt="logo-natura" />
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="container-card">
+          <div class="card">
+            <div class="card-title">
+              <img src="/assets/images/icons/archive_black_24dp.svg" alt="api" class="card-home-icon" />
+              <h4 class="title-h4">Natura API</h4>
+            </div>
+
+            <p>
+              Obtenha as informações em diversos formatos, bem como enviada ou armazenada <br />
+              em qualquer lugar que você quiser. A Natura API d se adaptará ao seu fluxo de <br />
+              trabalho, proporcionando, agilidade e segurança nas informações solicitadas.
+            </p>
+          </div>
+        </div>
+
+        <div class="try-key-container">
+          <input type="text" name="api-key" class="try-key key-hover" placeholder="Type your API Key:" 
+          onmouseover="this.value='Type the url_of_natura_API';" onmouseout="this.value='';"/>
+          <button class="try-key-button getTryKey"><strong>Try It out</strong></button>
+        </div>
+
+        <div class="json" >
+          <div class=showJson>
+            <p>
+            </br>   
+              { </br>    
+                "url": "https://url_of_naturaAPI...",</br>       
+                "extracted_html": "https://url_of_html_file...",</br>       
+                "extracted_text": "https://url_of_text_file..." </br>  -
+              }
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards-section">
+        <div class="cards">
+          <div class="cards-title">
+            <img src="/assets/images/icons/settings_ethernet_black_24dp.svg" class="cards-title-img" />
+            <h4 class="title-api-pages">Integração</h4>
+          </div>
+
+          <p>
+            Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book.
+          </p>
+
+          <div class="try-key-container">
+            <button class="try-key-button integracao"><strong>Saiba Mais</strong></button>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="cards-title">
+            <img src="/assets/images/icons/settings_black_24dp.svg" class="cards-title-img" />
+            <h4 class="title-api-pages">Customização</h4>
+          </div>
+
+          <p>
+            Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book.
+          </p>
+
+          <div class="try-key-container">
+            <button class="try-key-button customizacao"><strong>Saiba Mais</strong></button>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="cards-title">
+            <img src="/assets/images/icons/assessment_black_24dp.svg" class="cards-title-img" />
+            <h4 class="title-api-pages">Gerenciamento</h4>
+          </div>
+
+          <p>
+            Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book.
+          </p>
+
+          <div class="try-key-container">
+            <button class="try-key-button gerenciamento"><strong>Saiba Mais</strong></button>
+          </div>
+        </div>
+      </section>
+
+      <div class="start-button">
+        <button class="getting-start-button"><strong>Getting Start</strong></button>
+      </div>
+    </main>
+
+    <script src="/assets/script/main.js"></script>
+  </body>
+</html>
